@@ -8,8 +8,7 @@ class Home extends Component
 {
     public function render()
     {
-        return view('layout.home');
-
+        return view('layouts.home');
     }
     
 }
