@@ -15,6 +15,7 @@ return new class extends Migration
     $table->uuid('role_id')->primary();
     $table->string('role_code'); // ADMIN|MODERATOR|USER
     $table->string('role_name');
+    $table->timestamps();
 });
 
     }
