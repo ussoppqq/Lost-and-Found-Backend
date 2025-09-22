@@ -18,6 +18,7 @@ return new class extends Migration
     $table->string('full_name');
     $table->string('email')->unique();
     $table->string('phone_number')->nullable();
+    $table->string('password')->nullable();
     $table->timestamps();
 
     $table->foreign('company_id')->references('company_id')->on('companies');
